@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 # Replace 'your_train_data.parquet' with your file path
-df = pd.read_csv('train.csv')
+df = pd.read_csv('HousingData.csv')
 
 from sklearn.model_selection import train_test_split
 train_df, test_df = train_test_split(df, test_size=0.3, random_state=42)
